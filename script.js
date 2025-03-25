@@ -5,10 +5,10 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/Avatar3.png")
-    img.setAttribute("alt", "Avatar 3")
+    img.setAttribute("src", "./assets/avatar-light2.png")
+    img.setAttribute("alt", "foto minha com camisa azul")
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "Avatar")
+    img.setAttribute("src", "./assets/avatar4.png")
+    img.setAttribute("alt", "foto minha com camisa vermelha")
   }
 }
